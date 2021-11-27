@@ -4,9 +4,12 @@
 
 /Obj
 /Obj64
+# prj temp
+*.env
+*.prjgrd
+
 
 # zip
 acadStarter.zip
 acadStarter8.zip
 acadStarter_last7.5.zip
-
