@@ -1,0 +1,30 @@
+﻿/*****************************************************************************
+
+                        Copyright (c) 2012 A&K
+
+******************************************************************************/
+
+#include @"regUtil\regUtil.ph"
+
+% privately used packages
+#include @"pfc\gui\messageBox\messageBox.ph"
+#include @"makeAcadDocLsp\makeAcadDocLsp.ph"
+#include @"pfc\exception\exceptionDump\exceptionDump.ph"
+#include @"pfc\com\comSupport\comSupport.ph"
+#include @"pfc\guid\guid.ph"
+#include @"pfc\vpi\vpiDDE\vpiDDE.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\application\useExe\useExe.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\registry\registry.ph"
+#include @"pfc\exception\exception.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"regUtil\regUtil.pro"

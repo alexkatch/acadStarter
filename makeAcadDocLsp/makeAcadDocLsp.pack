@@ -1,0 +1,14 @@
+﻿#include @"makeAcadDocLsp\makeAcadDocLsp.ph"
+
+% privately used packages
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\application\Exe\exe.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"makeAcadDocLsp\makeAcadDocLsp.pro"

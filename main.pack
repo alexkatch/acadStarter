@@ -1,0 +1,23 @@
+﻿/*****************************************************************************
+
+                        Copyright (c) 2012 A&K
+
+******************************************************************************/
+
+#include @"main.ph"
+
+% privately used packages
+#include @"makeAcadDocLsp\makeAcadDocLsp.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"taskWindow\taskWindow.ph"
+#include @"pfc\exception\exception.ph"
+
+#include @"infoTask\infoTask.ph"
+
+% private interfaces
+
+% private classes
+#include @"regUtil\regUtil.ph"
+
+% implementations
+#include @"main.pro"

@@ -1,0 +1,45 @@
+﻿/*****************************************************************************
+
+                        Copyright (c) 2012 A&K
+
+******************************************************************************/
+
+#include @"TaskWindow\TaskWindow.ph"
+
+% privately used packages
+#include @"acadInfo\acadInfo.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"makeAcadDocLsp\makeAcadDocLsp.ph"
+#include @"pfc\gui\controls\iconControl\iconControl.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\gui\controls\versionControl\versionControl.ph"
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"cToolHelp\cToolHelp.ph"
+
+#include @"infoTask\infoTask.ph"
+
+#include @"regUtil\regUtil.ph"
+
+
+#include @"pfc\string\string.ph"
+#include @"pfc\list\list.ph"
+#include @"resourceIdentifiers.i"
+#include @"pfc\gui\controls\messageControl\messageControl.ph"
+#include @"pfc\exception\exception.ph"
+#include @"TaskWindow\Toolbars\Toolbars.ph"
+
+#include @"pfc\windowsApi\fileSystem_api\fileSystem_api.ph"
+
+
+% private interfaces
+
+
+
+% private classes
+#include @"TaskWindow\AboutDialog.cl"
+
+
+% implementations
+#include @"TaskWindow\TaskWindow.pro"
+#include @"TaskWindow\AboutDialog.pro"

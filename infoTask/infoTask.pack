@@ -1,0 +1,37 @@
+﻿/*****************************************************************************
+
+                        Copyright (c) 2012 A&K
+
+******************************************************************************/
+
+#include @"infoTask\infoTask.ph"
+
+#requires @"infoTask\infoTask.frm"
+% privately used packages
+#include @"acadInfo\acadInfo.ph"
+#include @"pfc\gui\controls\listcontrol\listcontrol.ph"
+#include @"pfc\gui\controls\listControl\listControl.i"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\controls\editControl\editControl.i"
+#include @"pfc\gui\controls\listControl\listButton.i"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
+
+%   OK   
+#include @"cToolHelp\cToolHelp.ph"
+ #include @"main.ph"
+%#include @"pfc\windowsApi\toolhelp32_api\toolhelp32_api.ph"
+#include @"pfc\windowsApi\fileSystem_api\fileSystem_api.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\list\list.ph"
+#include @"resourceIdentifiers.i"
+#include @"pfc\exception\exception.ph"
+#include @"regUtil\regUtil.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"infoTask\infoTask.pro"

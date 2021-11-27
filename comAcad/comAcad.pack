@@ -1,0 +1,10 @@
+﻿#include @"comAcad\comAcad.ph"
+
+% privately used packages
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"comAcad\comAcad.pro"

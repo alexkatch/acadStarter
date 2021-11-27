@@ -1,0 +1,16 @@
+﻿#include @"infoTaskTxt\infoTaskTxt.ph"
+
+% privately used packages
+#include @"cToolHelp\cToolhelp.i"
+#include @"pfc\windowsApi\toolhelp32_api\toolhelp32_api.ph"
+#include @"cToolHelp\cToolHelp.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\list\list.ph"
+#include @"acadInfo\acadInfo.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"infoTaskTxt\infoTaskTxt.pro"
